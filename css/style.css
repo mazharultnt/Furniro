@@ -1,0 +1,38 @@
+/* ============================== */
+/* ===== Products Part Start ==== */
+/* ============================== */
+
+.badge-new {
+    width: 48px;
+    height: 48px;
+    background-color: #2EC4B6;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-overlay {
+    background-color: rgba(58, 58, 58, 0.75);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.product-card:hover .product-overlay {
+    opacity: 1;
+}
+
+.btn-show-more {
+    color: #B88E2F;
+    border: 1px solid #B88E2F;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-show-more:hover {
+    background-color: #B88E2F;
+    color: #FFFFFF;
+}
+/* ============================== */
+/* ===== Products Part End ====== */
+/* ============================== */
