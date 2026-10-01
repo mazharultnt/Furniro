@@ -12,7 +12,7 @@
 }
 
 .product-overlay {
-    background-color: rgba(58, 58, 58, 0.75);
+    background-color: #3a3a3abf;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     cursor: pointer;
@@ -23,9 +23,9 @@
 }
 
 .btn-show-more {
+    background-color: transparent;
     color: #B88E2F;
     border: 1px solid #B88E2F;
-    background-color: transparent;
     transition: all 0.3s ease;
 }
 
@@ -33,6 +33,193 @@
     background-color: #B88E2F;
     color: #FFFFFF;
 }
+
 /* ============================== */
 /* ===== Products Part End ====== */
+/* ============================== */
+
+
+
+/* ============================== */
+/* ==== Room-Inspiration P S ==== */
+/* ============================== */
+
+.RIPS_BTN {
+    background-color: transparent;
+    color: #B88E2F;
+    border: 1px solid #B88E2F;
+    transition: all 0.3s ease;
+}
+
+.RIPS_BTN:hover {
+    background-color: #B88E2F;
+    color: #FFFFFF;
+}
+
+.floating-box {
+    background-color: #ffffffe6;
+    backdrop-filter: blur(5px);
+}
+
+.btn-arrow {
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dot {
+    width: 11px;
+    height: 11px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #B88E2F;
+    outline: 1px solid #B88E2F;
+    outline-offset: 4px;
+}
+
+/* ============================== */
+/* ==== Room-Inspiration P E ==== */
+/* ============================== */
+
+
+
+/* ============================== */
+/* ==== Furniture Part Start ==== */
+/* ============================== */
+
+.gallery-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery-col.col-1 {
+    width: 10%;
+    transform: translateY(-20px);
+}
+
+.img-top-1 {
+    height: 300px;
+}
+
+.img-bottom-1 {
+    height: 320px;
+}
+
+.gallery-col.col-2 {
+    width: 25%;
+    transform: translateY(-10px);
+}
+
+.img-top-2 {
+    height: 310px;
+}
+
+.img-bottom-2 {
+    height: 240px;
+}
+
+.gallery-col.col-3 {
+    width: 20%;
+}
+
+.img-center {
+    height: 390px;
+}
+
+.gallery-col.col-4 {
+    width: 22%;
+    transform: translateY(-15px);
+}
+
+.img-top-4 {
+    height: 340px;
+}
+
+.img-bottom-4 {
+    height: 240px;
+}
+
+.gallery-col.col-5 {
+    width: 18%;
+    transform: translateY(-30px);
+}
+
+.img-top-5 {
+    height: 420px;
+}
+
+.img-bottom-5 {
+    height: 190px;
+}
+
+/* ============================== */
+/* ===== Furniture Part End ===== */
+/* ============================== */
+
+
+
+/* ============================== */
+/* ===== footer Part Start ====== */
+/* ============================== */
+
+.footer-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #B88E2F;
+}
+
+.newsletter-input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 4px 0;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    max-width: 220px;
+    background: transparent;
+}
+
+.newsletter-input::placeholder {
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.newsletter-btn {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 4px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.newsletter-btn:hover {
+    color: #B88E2F;
+    border-bottom-color: #B88E2F;
+}
+
+/* ============================== */
+/* ====== footer Part End ======= */
 /* ============================== */
